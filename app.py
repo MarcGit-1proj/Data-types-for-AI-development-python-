@@ -10,9 +10,9 @@ elif edad < 59 :
 elif edad > 60 :
     print ("senior")
 else :
-    print("wrong answer") 
+    print("wrong answer")                                  
 
-    print ("<-------------------------------------------------->")
+    print ("<-------------------------------------------------->") 
     #while#
 while   True:
     num1 = float(input("1st digit"))
@@ -49,3 +49,19 @@ while   True:
         print ("hiiii:  ", letter)
 
     print ("<------------------------------------------------------------>")
+    #combination of for, while and condition
+    mga_prutas = ["orange","banana","apple"]
+    mga_gulay = ["talong","okra","kamatis"]
+
+
+    while True:
+
+        product = input("typehere:")
+
+        if product in mga_prutas:
+                print ("Masustansiya at matamis!")
+        elif product in mga_gulay:
+                print ("Puno ng bitamina!")
+        else:
+                print ("not_available")
+
